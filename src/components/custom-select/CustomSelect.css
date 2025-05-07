@@ -1,0 +1,45 @@
+.select-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.custom-select {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  border: 1px solid var(--input-color);
+  color: var(--input-color);
+  appearance: none;
+
+}
+
+.custom-select:focus {
+  outline: none;
+  border-color: var(--input-focus-color);
+}
+
+.select-option {
+  background-color: var(--input-focus-color);
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+option {
+  margin: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.select-icon {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: var(--input-color);
+}
+
+.clear-icon {
+  pointer-events: all;
+  cursor: pointer;
+}
