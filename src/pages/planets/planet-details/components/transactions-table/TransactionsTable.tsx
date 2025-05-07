@@ -25,8 +25,8 @@ const TransactionTable: React.FC<TransactionTableProps> = ({ transactions, excha
       <Table striped highlightOnHover>
         <Table.Thead>
           <Table.Tr>
-            <Table.Th>User</Table.Th>
             <Table.Th>Date</Table.Th>
+            <Table.Th>User</Table.Th>
             <Table.Th>Amount</Table.Th>
             <Table.Th>GCS</Table.Th>
             <Table.Th>ICS</Table.Th>
